@@ -1,0 +1,16 @@
+{
+  "name": "lol-bully",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/npm": "^7.19.0",
+    "got": "^11.8.2",
+    "i": "^0.3.7"
+  }
+}

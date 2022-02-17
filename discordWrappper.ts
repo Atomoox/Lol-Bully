@@ -1,0 +1,5 @@
+class DiscordWrapper {
+    
+}
+
+export { DiscordWrapper };
