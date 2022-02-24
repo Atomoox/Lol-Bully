@@ -1,6 +1,6 @@
 # Lol bully
 
-    Prolly the only repo you need to lose all your friends.
+**Prolly the only repo you need to lose all your friends.**
 
 ## I. Roadmap
     
