@@ -43,7 +43,7 @@ const generateWebhookPayload = (gameStats: GameStats) => {
 
 
 class DiscordWrapper {
-    private webhook: string = 'https://discord.com/api/webhooks/944165432657600562/JBd8D6qpT9T5wNlILdqiBG4wbd_xhUDPcHNTj9bQmsldMCiGv8B4iBKPswPpcq2kQv0X';
+    private webhook: string;
 
     constructor(publicWebhook: string) {
         this.webhook = publicWebhook;
