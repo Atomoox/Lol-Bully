@@ -1,6 +1,6 @@
-import { ApiWrapper } from './apiWrapper';
-import { DiscordWrapper } from './discordWrappper';
-import { Events } from './types';
+import { ApiWrapper } from './src/apiWrapper';
+import { DiscordWrapper } from './src/discordWrappper';
+import { Events } from './src/types';
 
 class Application {
     public static async run(API_KEY: string, userName: string, webhook: string) {
@@ -21,6 +21,7 @@ class Application {
         await apiWrapper.start(userName);
     }
 };
+
 /*
 (async () => {
     Application.run("", "", "");
