@@ -256,3 +256,13 @@ export interface FormattedStats {
     rank: string;
 }
 
+export interface GameStats {
+    wins: number;
+    losses: number;
+    justwon: boolean;
+    champion: string;
+    userName: string;
+    profileIcon: string;
+    damages: number;
+    kda: string;
+}

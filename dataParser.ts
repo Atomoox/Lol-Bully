@@ -50,8 +50,10 @@ const rankCalc = (division: string, rank: string) => {
 }
 
 
-const parseUserData = (stats: UserStats[]): FormattedStats => {
+const parseUserData = (stats: UserStats[]): FormattedStats | null => {
     const soloDuoDatas = stats.find(x => x.queueType === GameTypes.RankedSoloDuo);
+    if (!soloDuoDatas)
+        return null;
     return {
         lp: soloDuoDatas.leaguePoints,
         wins: soloDuoDatas.wins,
